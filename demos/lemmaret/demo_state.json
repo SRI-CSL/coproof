@@ -1,0 +1,309 @@
+{
+  "state": {
+    "tag": "proofstate",
+    "label": "EquivClosIdempotent",
+    "current-goal": {
+      "tag": "sequent",
+      "antecedents": null,
+      "consequents": [
+        {
+          "tag": "s-formula",
+          "label": null,
+          "new?": null,
+          "formula": {
+            "tag": "apply",
+            "operator": {
+              "tag": "constant",
+              "constant-name": "booleans__IFF",
+              "actuals": null,
+              "type": 1120869698
+            },
+            "argument": [
+              [
+                "tag",
+                "tuple"
+              ],
+              {
+                "tag": "apply",
+                "operator": {
+                  "tag": "apply",
+                  "operator": {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__EquivClos",
+                    "actuals": null,
+                    "type": 1143399078
+                  },
+                  "argument": {
+                    "tag": "apply",
+                    "operator": {
+                      "tag": "constant",
+                      "constant-name": "EquivalenceClosure__EquivClos",
+                      "actuals": null,
+                      "type": 1143399078
+                    },
+                    "argument": {
+                      "tag": "constant",
+                      "constant-name": "EquivalenceClosure__R!1",
+                      "actuals": null,
+                      "type": 4130319060
+                    }
+                  }
+                },
+                "argument": [
+                  [
+                    "tag",
+                    "tuple"
+                  ],
+                  {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__x!1",
+                    "actuals": null,
+                    "type": 2400138062
+                  },
+                  {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__x!2",
+                    "actuals": null,
+                    "type": 2400138062
+                  }
+                ]
+              },
+              {
+                "tag": "apply",
+                "operator": {
+                  "tag": "apply",
+                  "operator": {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__EquivClos",
+                    "actuals": null,
+                    "type": 1143399078
+                  },
+                  "argument": {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__R!1",
+                    "actuals": null,
+                    "type": 4130319060
+                  }
+                },
+                "argument": [
+                  [
+                    "tag",
+                    "tuple"
+                  ],
+                  {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__x!1",
+                    "actuals": null,
+                    "type": 2400138062
+                  },
+                  {
+                    "tag": "constant",
+                    "constant-name": "EquivalenceClosure__x!2",
+                    "actuals": null,
+                    "type": 2400138062
+                  }
+                ]
+              }
+            ]
+          },
+          "asserted?": null
+        }
+      ],
+      "hidden": [
+        {
+          "tag": "s-formula",
+          "label": null,
+          "new?": null,
+          "formula": {
+            "tag": "apply",
+            "operator": {
+              "tag": "constant",
+              "constant-name": "booleans__NOT",
+              "actuals": null,
+              "type": 3548206366
+            },
+            "argument": {
+              "tag": "forall",
+              "bindings": [
+                {
+                  "tag": [
+                    "variable"
+                  ],
+                  "type": 4130319060,
+                  "variable-name": "f_29590"
+                },
+                {
+                  "tag": [
+                    "variable"
+                  ],
+                  "type": 4130319060,
+                  "variable-name": "g_29591"
+                }
+              ],
+              "expression": {
+                "tag": "apply",
+                "operator": {
+                  "tag": "constant",
+                  "constant-name": "booleans__IMPLIES",
+                  "actuals": null,
+                  "type": 1120869698
+                },
+                "argument": [
+                  [
+                    "tag",
+                    "tuple"
+                  ],
+                  {
+                    "tag": "forall",
+                    "bindings": [
+                      {
+                        "tag": [
+                          "variable"
+                        ],
+                        "type": 2400138062,
+                        "variable-name": "x_29592"
+                      },
+                      {
+                        "tag": [
+                          "variable"
+                        ],
+                        "type": 2400138062,
+                        "variable-name": "x_29593"
+                      }
+                    ],
+                    "expression": {
+                      "tag": "apply",
+                      "operator": {
+                        "tag": "constant",
+                        "constant-name": "equalities__equal",
+                        "actuals": [
+                          {
+                            "tag": "type-actual",
+                            "type": 2614391051
+                          }
+                        ],
+                        "type": 1120869698
+                      },
+                      "argument": [
+                        [
+                          "tag",
+                          "tuple"
+                        ],
+                        {
+                          "tag": "apply",
+                          "operator": {
+                            "tag": [
+                              "variable"
+                            ],
+                            "type": 4130319060,
+                            "variable-name": "f_29590"
+                          },
+                          "argument": [
+                            [
+                              "tag",
+                              "tuple"
+                            ],
+                            {
+                              "tag": [
+                                "variable"
+                              ],
+                              "type": 2400138062,
+                              "variable-name": "x_29592"
+                            },
+                            {
+                              "tag": [
+                                "variable"
+                              ],
+                              "type": 2400138062,
+                              "variable-name": "x_29593"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "apply",
+                          "operator": {
+                            "tag": [
+                              "variable"
+                            ],
+                            "type": 4130319060,
+                            "variable-name": "g_29591"
+                          },
+                          "argument": [
+                            [
+                              "tag",
+                              "tuple"
+                            ],
+                            {
+                              "tag": [
+                                "variable"
+                              ],
+                              "type": 2400138062,
+                              "variable-name": "x_29592"
+                            },
+                            {
+                              "tag": [
+                                "variable"
+                              ],
+                              "type": 2400138062,
+                              "variable-name": "x_29593"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tag": "apply",
+                    "operator": {
+                      "tag": "constant",
+                      "constant-name": "equalities__equal",
+                      "actuals": [
+                        {
+                          "tag": "type-actual",
+                          "type": 4130319060
+                        }
+                      ],
+                      "type": 1626503160
+                    },
+                    "argument": [
+                      [
+                        "tag",
+                        "tuple"
+                      ],
+                      {
+                        "tag": [
+                          "variable"
+                        ],
+                        "type": 4130319060,
+                        "variable-name": "f_29590"
+                      },
+                      {
+                        "tag": [
+                          "variable"
+                        ],
+                        "type": 4130319060,
+                        "variable-name": "g_29591"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "asserted?": null
+        }
+      ]
+    },
+    "current-rule": [
+      "split"
+    ],
+    "current-input": [
+      "prop"
+    ]
+  },
+  "cmd_history": [
+    "skosimp*",
+    "apply-extensionality",
+    "iff"
+  ]
+}

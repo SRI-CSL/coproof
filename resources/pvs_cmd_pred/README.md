@@ -1,0 +1,1 @@
+This directory contains preprocessed training files used to train the command prediction experiment.  These are given in a 3 column tabs-delimited format, where the first column is the featurized state, the second is the target, and the third is a size 3 window of previous commands.  The files are suffixed by whether they are from the prelude or from the full PVSlib.
